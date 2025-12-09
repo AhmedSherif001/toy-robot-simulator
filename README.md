@@ -1,6 +1,6 @@
-# Toy Robot Simulator (Cellular Origins – Python Technical Test)
+# Toy Robot Simulator
 
-This repository contains a Python implementation of the **Toy Robot Simulator** as described in the Cellular Origins technical test.
+This repository contains a Python implementation of the **Toy Robot Simulator** as described in the technical test.
 
 The simulator models a robot moving on a **5×5 tabletop grid**. The robot can be placed on the table, moved forwards, rotated left/right, and can report its position and facing direction. Command input can be provided either via **standard input** or from a **text file**.
 
@@ -37,7 +37,7 @@ The simulator models a robot moving on a **5×5 tabletop grid**. The robot can b
 ## File Structure
 
 - `toy_robot.py`  
-  Main entry point and simulator implementation (functional style, no OOP).  
+  Main entry point and simulator implementation (functional style).  
   Exposes:
   - CLI interface
   - Core pure functions: `create_initial_state`, `process_line`, etc.
