@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Toy Robot Simulator - Cellular Origins technical test (Python)
+Toy Robot Simulator
 
 - 5x5 tabletop, coordinates 0..4 in both X and Y.
 - Commands: PLACE X,Y,F | MOVE | LEFT | RIGHT | REPORT
@@ -276,3 +276,4 @@ def main(argv=None):
 
 if __name__ == "__main__":
     sys.exit(main())
+
